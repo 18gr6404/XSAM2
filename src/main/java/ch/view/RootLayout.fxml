@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <TabPane prefHeight="34.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab text="Lægepraksis" />
+            <Tab text="Lægepraksis" />
+          <Tab text="SAM" />
+        </tabs>
+      </TabPane>
+   </top>
+   <left>
+      <VBox fx:id="sidePaneLeft" maxWidth="200.0" prefWidth="200.0" BorderPane.alignment="TOP_LEFT" />
+   </left>
+   <right>
+      <VBox fx:id="sidePaneRight" maxWidth="200.0" prefWidth="200.0" BorderPane.alignment="TOP_RIGHT" />
+   </right>
+   <center>
+      <VBox fx:id="centerView" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
